@@ -3,6 +3,7 @@ img {
 }
 #Enter {
     border-radius: 25px;
+    width: 200%;
 }
 #Enter:focus {
     background-color: rgb(250, 152, 152); 
