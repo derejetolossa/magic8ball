@@ -1,6 +1,26 @@
 img {
     border-radius: 50%;
 }
+#Enter {
+    border-radius: 25px;
+}
+#Enter:focus {
+    background-color: rgb(250, 152, 152); 
+}
+#Enter2 {
+    border-radius: 25px;
+
+}
+#Enter2:hover {
+    background-color: yellow;
+}
+#refresh {
+    border-radius: 25px;
+
+}
+#refresh:hover {
+    background-color: green;
+}
 body {
     margin-left: auto;
     margin-right: auto;
