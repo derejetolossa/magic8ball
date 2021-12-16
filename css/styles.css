@@ -1,36 +1,58 @@
 img {
     border-radius: 50%;
 }
+#hide {
+    font-size: 20px;
+}
 #Enter {
     border-radius: 25px;
     width: 100%;
+    font-size: 18px;
 }
 #Enter:focus {
     background-color: rgb(250, 152, 152); 
 }
 #Enter2 {
     border-radius: 25px;
+    font-size: 18px;
 
 }
-#Enter2:hover {
-    background-color: yellow;
-}
-#refresh {
-    border-radius: 25px;
-
-}
-#refresh:hover {
-    background-color: green;
-}
-#refresh {
+#Enter2 {
     animation: body 1.75s infinite;
     
 }
 
-@keyframes refresh {
+@keyframes Enter2 {
     from {background-color: green;}
     to {background-color: #88ff00;}
     
+}
+
+#Enter2:hover {
+    background-color: yellow;
+}
+
+#refresh {
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 9px #999;  
+}
+
+#refresh:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+
+#refresh:hover {
+    background-color: green;
 }
 
 body {
